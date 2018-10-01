@@ -10,6 +10,7 @@ const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
 const prefix = '8';
 client.on('ready', function() {
     console.log(`i am ready ${client.user.username}`);
+    client.user.setGame(`8play`,"http://twitch.tv/sytra_ayman")
 });
 
       client.on('ready', () => {
